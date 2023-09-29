@@ -1,0 +1,14 @@
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\configuration\KeyCloakJwtAuthenticationConverter.java
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\configuration\OAuth2ResourceServerSecutiryConfiguration.java
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\configuration\feign\OAuthFeignConfig.java
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\domain\User.java
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\repository\BillsRepository.java
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\repository\FeignBillsRepository.java
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\configuration\feign\OAuthClientCredentialsFeignManager.java
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\configuration\feign\FeignInterceptor.java
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\repository\KeycloakUserRepository.java
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\controller\UserController.java
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\service\UserService.java
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\configuration\restadmin\KeycloakClientConfiguration.java
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\domain\Bill.java
+C:\Users\Maru Gerva\Desktop\BACKEND SPECIALIST\EB2\C16_FINAL\GERVASONI-MARIA-ROSA-Parcial1-EB2\ms-users\src\main\java\com\example\msusers\MsUsersApplication.java

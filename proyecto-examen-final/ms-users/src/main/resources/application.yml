@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: ms-users
+#resource server
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/eb2
+      client:
+        registration:
+          keycloak:
+            client-id: users-service-client
+            client-secret: ksaKpzACdeD55I5mpCDRmHn29Frwxkcr
+            authorization-grant-type: client_credentials
+            provider: keycloak
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8080/realms/eb2
+            tokenUri: http://localhost:8080/realms/eb2/protocol/openid-connect/token
+
+#k rest admin client:
+dh:
+  keycloak:
+    realm: eb2
+    serverUrl: http://localhost:8080/
+    clientId: users-service-client
+    clientSecret: ksaKpzACdeD55I5mpCDRmHn29Frwxkcr
+
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+server:
+  port: 8081

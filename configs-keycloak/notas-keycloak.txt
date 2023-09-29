@@ -1,0 +1,29 @@
+EXAMEN FINAL DE ESPECIALIZACIÓN EN BACKEND 2 - SEPTIEMBRE 2023 - ALUMNA: María Rosa Gervasoni.
+
+------------------------------------------#CONFIGURACIONES EN GENERAL:--------------------------------------------------
+
+ROLES:
+-DE REINO: "APP_USER"
+-DE CLIENTE: "USER"
+
+CLIENTES:
+-API-GATEWAY-CLIENT: flow authorization_code. - con client-scope "CLIENT-SCOPE-API-GATE", nombre y token-claim "GROUP".
+-USERS-SERVICE-CLIENT: flow client_credentials.
+
+
+-----------------------------#CONFIGURACIONES NO INCLUIDAS EN EL JSON DE KEYCLOAK---------------------------------------
+
+USUARIOS:
+-USER, (pass: "#User001") - con rol de cliente USER, compuesto ("user" y "app_user"). - ID: 29cadeee-5443-4b4d-b572-996b3e0cf3b3
+-USER2, (pass: "#User002") - sin grupo ni rol asignados. - ID: 86ef54da-8559-48f6-8b49-35c5a569beb7
+-USER3, (pass: "#User003") - sin rol; de grupo PROVIDERS. - ID: 55745da0-baca-4409-bcbc-809b289fd78e
+-USER4, (pass: "#User004") - con rol de reino APP_USER; de grupo PROVIDERS. - ID: dc154a59-6592-4504-a609-e7700c7828d2
+-USER5, (pass: "#User005") - sin grupo ni rol asignados. - ID: 11a4974d-5f13-44ec-be45-ece3ad468bd8
+-USER6, (pass: "#User006") - sin grupo ni rol asignados. - ID: 99945c81-201c-45ab-9ef6-10de6a828255
+
+------------------------------------------------------------------------------------------------------------------------
+ENDPOINTS:
+localhost:8090/api/v1/bills/all
+localhost:8090/api/v1/bills/users/86ef54da-8559-48f6-8b49-35c5a569beb7  (MICHAEL)
+localhost:8090/api/v1/bills/users/create
+localhost:8090/api/v2/users/find/86ef54da-8559-48f6-8b49-35c5a569beb7 (MICHAEL)
