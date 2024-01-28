@@ -43,10 +43,10 @@ Partimos de un proyecto base en el cual nos proporcionan ms-bills y ms-discovery
     - crear facturas: /api/v1/bills/users/create
     - buscar un usuario y sus facturas: /api/v2/users/find/{id} 
 
-### Screenshot
+### Arquitectura del proyecto
 ![arquitecturaProyecto](./arquitectura.png)
 
-## Technologías
+## Tecnologías
 ***
 Lista de tecnologías usadas en el proyecto:
 * [Java](https://www.java.com/es/): Version 17.0.1
@@ -62,4 +62,15 @@ Lista de tecnologías usadas en el proyecto:
 * [spring-cloud-starter-gateway]
 * [spring-boot-starter-webflux]
 * [spring-cloud-starter-openfeign]
+***
+
+
+## Autores ✒️
+
+- Desarrollo y Documentación: María Rosa Gervasoni.
+
+
+#### Muchas Gracias 🎁
+
+#### ⌨️ con ❤️ por marugervasoni 😊
 
